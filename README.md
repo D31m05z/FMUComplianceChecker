@@ -2,7 +2,20 @@
 
 Background information for FMI Compliance Checker (FMUChecker) application.
 
-- For build instructions see: [BUILD.md](BUILD.md)
+### Build
+```
+git clone git@github.com:D31m05z/FMUComplianceChecker.git
+pushd FMUComplianceChecker
+
+./build.sh
+
+# example for build script parameters
+# CONFIG=Release BUILD_DIR=build-fmu INSTALL_DIR=install PARALLEL=16 ./build.sh
+
+popd
+```
+
+- [DEPRECATED] For build instructions see: [BUILD.md](BUILD.md)
 - Licence information is provided in: [LICENCE.md](LICENCE.md)
 - Acknowledgements for used software: [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md)
 - Instructions for how to make a release: [HOW-TO-RELEASE.md](HOW-TO-RELEASE.md)
